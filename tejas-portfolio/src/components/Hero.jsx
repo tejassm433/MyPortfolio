@@ -74,7 +74,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/Tejas_SM_Resume.pdf"
+            href="/Tejassm_433.pdf"
             download
             className="px-6 py-3 rounded-xl bg-green-600 hover:bg-green-700 text-white transition"
           >
