@@ -5,7 +5,7 @@ export default function Projects() {
   const [repos, setRepos] = useState([])
 
   useEffect(() => {
-    fetch("https://api.github.com/users/tejutejas162/repos")
+    fetch("https://api.github.com/users/tejassm433/repos")
       .then(res => res.json())
       .then(data => {
         const filtered = data
@@ -54,7 +54,7 @@ export default function Projects() {
 
             <div className="flex justify-center mt-8">
               <a
-                href="https://github.com/tejutejas162"
+                href="https://github.com/tejassm433"
                 target="_blank"
                 rel="noreferrer"
                 className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-xl hover:scale-105 transition"
